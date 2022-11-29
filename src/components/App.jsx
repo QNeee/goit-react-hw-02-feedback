@@ -27,7 +27,7 @@ export class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    return (<div>
+    return (<div style={{ textAlign: "center" }}>
       <Section title={"Leave Feedback"}>
         <FeedbackOptions options={Object.keys(this.state)} onLeaveFeedback={this.onLeaveFeedback} />
 
