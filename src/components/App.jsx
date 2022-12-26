@@ -1,7 +1,7 @@
-import { FeedbackOptions } from "./Feedback/FeedbackOptions/FeedbackOptions";
-import { Statistic } from "./Feedback/Statistic/Statistic";
-import { Notification } from "./Feedback/Notification/Notification";
-import { Section } from "./Feedback/Section/Section";
+import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
+import { Statistic } from "./Statistic/Statistic";
+import { Notification } from "./Notification/Notification";
+import { Section } from "./Section/Section";
 import React, { Component } from "react";
 export class App extends Component {
   state = {
